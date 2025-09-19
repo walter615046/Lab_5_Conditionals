@@ -16,6 +16,7 @@ public class Task2 {
             System.out.println("You entered an incorrect month value: " + birthMonth);
             System.exit(0);
         }
+
         if (birthMonth > 12) {
             System.out.println("You entered an incorrect month value: " + birthMonth);
             System.exit(0);

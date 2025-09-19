@@ -24,6 +24,7 @@ public class Task1 {
             System.out.print("Your shipping cost is free. The total cost of your item is $ " + itemPrice + ".");
         } else if (itemPrice < 100) {
             System.out.println("Your shipping cost is $ " + itemPrice * SALES_TAX + " and your total price is $ " + totalPrice);
+            
         }
     }
 }
